@@ -1,6 +1,6 @@
 # Problem Statement
 
-### Given an array of type int with length n. Reverse the array and print all ELements
+### Given an array of type ```int``` with length ```n```. Reverse the array and print all ELements
 
 ##### Input Format
 > N = 5
