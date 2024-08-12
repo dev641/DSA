@@ -10,7 +10,7 @@ public class PalindromeString {
         return isPalindrome ? "True" : "False";
     }
     public static void main(String[] args) {
-        String str = "MADAME";
+        String str = "MADAM";
         System.out.println(isPalindrome(str));
     }
 }
