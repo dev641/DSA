@@ -1,6 +1,7 @@
 # Bubble Sort
-## Problem Statement
 ***
+## Problem Statement
+
 Given an Array of length ``N``. Sort Array using Bubble Sort
 
 > arr = {5,6,7,4,6,5,3,2}
