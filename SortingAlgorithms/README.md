@@ -1,5 +1,4 @@
 #  Sort Algorithms
-***
 ## Problem Statement
 
 Given an Array of length ``N``. Sort Array using different Sort Algorithms
