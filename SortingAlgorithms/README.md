@@ -1,4 +1,4 @@
-# Bubble Sort
+#  Sort Algorithms
 ***
 ## Problem Statement
 
