@@ -2,7 +2,7 @@
 ***
 ## Problem Statement
 
-Given an Array of length ``N``. Sort Array using Bubble Sort
+Given an Array of length ``N``. Sort Array using different Sort Algorithms
 
 > arr = {5,6,7,4,6,5,3,2}
 > 
