@@ -2,12 +2,12 @@ package SortingAlgorithms.Quick;
 
 public class QuickSort {
     public static int partition(int[] arr, int l, int r) {
-        int pivot = r, i=l,j=r;
+        int i=l,j=r;
         while(i<j) {
-            while(i <=r-1 && arr[i]<=arr[pivot]){
+            while(i <=r-1 && arr[i]<=arr[r]){
                 i++;
             }
-            while(j>= l+1 && arr[j]>arr[pivot]){
+            while(j>= l+1 && arr[j]>arr[r]){
                 j--;
             }
             if (i<j) {
