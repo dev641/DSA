@@ -16,9 +16,6 @@ public class QuickSort {
                 arr[j] = temp;
             }
         }
-        int temp = arr[r];
-        arr[r] = arr[pivot];
-        arr[pivot] = temp;
         return j;
     }
     public static void sort(int[] arr, int l, int r) {
@@ -28,7 +25,7 @@ public class QuickSort {
         sort(arr, l, j-1);
     }
     public static void main(String[] args) {
-        int[] arr = {5,6,7,4,6,5,3,2};
+        int[] arr = {5,6,7,4,10, 1, 3 , 6, 23,6,5,3,2};
         sort(arr,0, arr.length-1);
         for(int el: arr) {
             System.out.print(el + " ");
