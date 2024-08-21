@@ -40,6 +40,52 @@ public class Heap {
         }
     }
 
+    private static void heapifyMaxHeap(int[] arr) {
+        int n = arr.length;
+        int i = n-1;
+        while(i >= 0) {
+            int j = i, k = 2* j;
+            while (k < n-2) {
+                if (arr[k] < arr[k+1]) {
+                    k = k+1;
+                }
+                if (arr[j] < arr[k]) {
+                    int temp = arr[j];
+                    arr[j] = arr[k];
+                    arr[k] = temp;
+                    j = k;
+                    k = 2*j;
+                } else {
+                    break;
+                }
+            }
+            i--;
+        }
+    }
+
+    private static void heapifyMinHeap(int[] arr) {
+        int n = arr.length;
+        int i = n-1;
+        while(i >= 0) {
+            int j = i, k = 2* j;
+            while (k < n-2) {
+                if (arr[k] > arr[k+1]) {
+                    k = k+1;
+                }
+                if (arr[j] > arr[k]) {
+                    int temp = arr[j];
+                    arr[j] = arr[k];
+                    arr[k] = temp;
+                    j = k;
+                    k = 2*j;
+                } else {
+                    break;
+                }
+            }
+            i--;
+        }
+    }
+
     private static void createMinHeap(int[] arr) {
         int i = 1;
         while(i < arr.length) {
@@ -128,7 +174,8 @@ public class Heap {
     }
     public static void main(String[] args) {
         int[] arr = {2,13, 45, 5, 67, 7,8};
-        sort(arr);
+//        sort(arr);
+        heapifyMinHeap(arr);
         for(int ele: arr) {
             System.out.print(ele+ " ");
         }
