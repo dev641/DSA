@@ -23,7 +23,7 @@ Explanation: There is only one element which is the largest.
 
 Constraints:
 
-1 <= arr.size()<= 106
+1 <= arr.size()<= 10<sup>6</sup>
 
-0 <= arr[i] <= 106
+0 <= arr[i] <= 10<sup>6</sup>
 
