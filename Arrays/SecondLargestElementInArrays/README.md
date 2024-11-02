@@ -19,6 +19,5 @@ Explanation: The largest element of the array is 10 and the second largest eleme
 
 Constraints:
 
-2 ≤ arr.size() ≤ 10<sup>5</sup>
-
-1 ≤ arr[i] ≤ 10<sup>5</sup>
+- 2 ≤ arr.size() ≤ 10<sup>5</sup>
+- 1 ≤ arr[i] ≤ 10<sup>5</sup>
